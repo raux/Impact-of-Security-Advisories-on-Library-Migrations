@@ -1,6 +1,4 @@
-## Do Developers Update Their Library Dependencies?
-
-### An Empirical Study on the Impact of Security Advisories on Library Migration
+## Do Developers Update Their Library Dependencies? An Empirical Study on the Impact of Security Advisories on Library Migration
 
 (Replication Package for Empirical Software Engineering Journal Manuscript)
 
