@@ -1,4 +1,4 @@
-## Do Developers Update Their Library Dependencies? An Empirical Study on the Impact of Security Advisories on Library Migration
+# Do Developers Update Their Library Dependencies? An Empirical Study on the Impact of Security Advisories on Library Migration
 
 (Replication Package for Empirical Software Engineering Journal Manuscript)
 
@@ -13,11 +13,11 @@ Surveying these developers, we find that 69% of the interviewees claimed to be u
 Furthermore, developers are not likely to prioritize library updates, citing it as extra effort and added responsibility.
 This study draws the conclusions that even though third-party reuse is commonplace, the practice of updating a dependency is not as common for many developers.
 
-### Research Tool References
+## Research Tool References
 
 For the experiments, we used Projects from GitHub.
 
-#### Mining Tools:
+## Mining Tools:
 
 Our Dependency Extraction Tool for Maven Libraries: [PomWalker](https://github.com/raux/PomWalker)
 
@@ -25,7 +25,7 @@ Java Library to mine and extract Library Migrations
 [JGit](http://www.eclipse.org/jgit/)
 
 
-#### Library Migration Plot (LMP) Tools :
+## Library Migration Plot (LMP) Tools :
 
 R statistics Tool [R](https://www.r-project.org/)
 
@@ -33,7 +33,7 @@ Notable Packages used [ggplot2](http://ggplot2.org/), [plyr](https://cran.r-proj
 [sqldf](https://cran.r-project.org/web/packages/sqldf/),
 [gridExtra](https://cran.r-project.org/web/packages/gridExtra/gridExtra.pdf)
 
-#### Datasets
+## Datasets
 
 ```markdown
 1. Raw List of Java Projects (10,851 projects: Before pre-processing quality check)
@@ -68,7 +68,7 @@ artifactLib | Content from cell 2
 
 Load this function into R
 
-> Download LMPCurve.r](http://ggplot2.org/)
+[Download LMPCurve.r](http://ggplot2.org/)
 
 
 ###### 2.3. Load required library packages
