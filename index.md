@@ -1,6 +1,7 @@
-# Do Developers Update Their Library Dependencies? An Empirical Study on the Impact of Security Advisories on Library Migration
+Do Developers Update Their Library Dependencies? An Empirical Study on the Impact of Security Advisories on Library Migration
+------
 
-(Replication Package for Empirical Software Engineering Journal Manuscript)
+**(Replication Package for Empirical Software Engineering Journal Manuscript)**
 
 ## Abstract
 Third-party library reuse has become common practice in contemporary software development as it includes several benefits for developers.
@@ -14,13 +15,12 @@ Surveying these developers, we find that 69% of the interviewees claimed to be u
 Furthermore, developers are not likely to prioritize library updates, citing it as extra effort and added responsibility.
 This study draws the conclusions that even though third-party reuse is commonplace, the practice of updating a dependency is not as common for many developers.
 
-## Mining Tools and Libraries:
+** Mining Tools and Libraries: **
 
 Our Dependency Extraction Tool for Maven Libraries: [PomWalker](https://github.com/raux/PomWalker)
 
 Java Library to mine and extract Library Migrations
 [JGit](http://www.eclipse.org/jgit/)
-
 
 R statistics Tool (For Visualization) [R](https://www.r-project.org/)
 
@@ -28,10 +28,10 @@ Notable R Packages used [ggplot2](http://ggplot2.org/), [plyr](https://cran.r-pr
 [sqldf](https://cran.r-project.org/web/packages/sqldf/),
 [gridExtra](https://cran.r-project.org/web/packages/gridExtra/gridExtra.pdf)
 
-## Library Migration Plot LU Metrics
+## Library Migration Plot LU Dataset
 
 > (LMP _2,949 LMP LU Metrics Including 213 Latest Versions_)
-[LMPCurves.csv](http://ggplot2.org/)
+[LMPCurves.csv](http://sel.ist.osaka-u.ac.jp/people/raula-k/librarymigrations/data/data/LU_metricsLMP.csv)
 
 LMPCurves | Description
 ------------ | -------------
@@ -43,10 +43,10 @@ Post_Peak | time since the peak LU was reached (days)
 Library_Residue | Current_LU/ Peak_LU
 
 
-## Library Dependency Migrations
+## Library Dependency Migration Datasets
 
 > Raw List of Java Projects (10,851 projects: Before pre-processing quality check):
-[Projects.csv](http://ggplot2.org/)
+[Projects.csv](http://sel.ist.osaka-u.ac.jp/people/raula-k/librarymigrations/data/data/Projects.csv)
 
 Projects Attributes | Description
 ------------ | -------------
@@ -55,7 +55,7 @@ authors | # of authors that are part of the project
 name | Name of the project repository in GitHub
 
 > Library Migration Dependencies (852,322 Dependency Migrations)
-[LibraryMigrations.csv](http://ggplot2.org/) *(Note contains implicit ${versions})
+[LibraryMigrations.csv](http://sel.ist.osaka-u.ac.jp/people/raula-k/librarymigrations/data/data/libraryMigrations.csv) *(Note contains implicit ${versions})
 
 GitHubData Attributes | Description
 ------------ | -------------
@@ -68,8 +68,10 @@ type | Used to monitor LU (a=migration)(b=idle)
 libSum|  library name (name version)
 artifactLib | unique library name (domain-name-version)
 
+## Example LMP
+
 > Download and Load R function to generate an LMP:
-[LMPCurve.r](http://ggplot2.org/)
+[LMPCurve.r](http://sel.ist.osaka-u.ac.jp/people/raula-k/librarymigrations/data/data/LMPCurve.r)
 
 > Load required library packages
 ```R
