@@ -99,4 +99,4 @@ lib.getThreeCurve("com.google.guava-guava-16.0.1",
   as.Date("2014-08-01", "%Y-%m-%d"))
 ```
 The resulting Plot is shown below:
-![Alt text](https://github.com/raux/Impact-of-Security-Advisories-on-Library-Migrations/tree/master/images/sample.png "LMP for Guava 16.0.1, 17.0 and 18.0")
+![LMP] (https://github.com/raux/Impact-of-Security-Advisories-on-Library-Migrations/images/sample.png "LMP for Guava 16.0.1, 17.0 and 18.0")
