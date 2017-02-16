@@ -98,6 +98,6 @@ lib.getThreeCurve("com.google.guava-guava-16.0.1",
   as.Date("2014-04-01", "%Y-%m-%d"),
   as.Date("2014-08-01", "%Y-%m-%d"))
 ```
-The resulting Plot is shown below:
+The Raw LMP (without annotations) is shown below:
 
-![LMP Image](/master/images/sample.png)
+![LMP Image](https://raw.githubusercontent.com/raux/Impact-of-Security-Advisories-on-Library-Migrations/master/images/sample.png)
