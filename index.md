@@ -78,6 +78,8 @@ library(gridExtra)
 library(sqldf)
 library(plyr)
 require(stringr)
+#Load the libraryMigrations.csv
+libraryMigrations <- read.csv("~libraryMigrations.csv")
 ```
 > Generate LMP Plot
 
@@ -97,3 +99,4 @@ lib.getThreeCurve("com.google.guava-guava-16.0.1",
   as.Date("2014-08-01", "%Y-%m-%d"))
 ```
 The resulting Plot is shown below:
+![Alt text](https://raux.github.io/Impact-of-Security-Advisories-on-Library-Migrations/images/stormtroopocat.jpg "LMP for Guava 16.0.1, 17.0 and 18.0 ")
