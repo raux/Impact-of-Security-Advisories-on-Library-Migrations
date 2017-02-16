@@ -100,5 +100,4 @@ lib.getThreeCurve("com.google.guava-guava-16.0.1",
 ```
 The resulting Plot is shown below:
 
-![LMP] (http://sel.ist.osaka-u.ac.jp/people/raula-k/librarymigrations/index_files/image017.jpg
- "LMP for Guava 16.0.1, 17.0 and 18.0")
+![LMP] (https://raw.githubusercontent.com/raux/Impact-of-Security-Advisories-on-Library-Migrations/master/images/sample.png)
