@@ -95,7 +95,7 @@ For example, we test for _guava_ versions 16.0.1, 17.0, 18.0 and we only plot pr
 lib.getThreeCurve("com.google.guava-guava-16.0.1",
   "com.google.guava-guava-17.0",
   "com.google.guava-guava-18.0",
-  "GitHubData",
+  "libraryMigrations",
   as.Date("2015-01-01", "%Y-%m-%d"),
   as.Date("2014-04-01", "%Y-%m-%d"),
   as.Date("2014-08-01", "%Y-%m-%d"))
