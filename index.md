@@ -1,7 +1,8 @@
 Do Developers Update Their Library Dependencies? An Empirical Study on the Impact of Security Advisories on Library Migration
 ------
 
-**(Replication Package for Empirical Software Engineering Journal Manuscript)**
+**(Empirical Software Engineering Journal)**
+https://link.springer.com/article/10.1007/s10664-017-9521-5
 
 ## Abstract
 Third-party library reuse has become common practice in contemporary software development as it includes several benefits for developers.
