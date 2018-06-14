@@ -17,7 +17,7 @@ Surveying these developers, we find that 69% of the interviewees claimed to be u
 Furthermore, developers are not likely to prioritize library updates, citing it as extra effort and added responsibility.
 This study draws the conclusions that even though third-party reuse is commonplace, the practice of updating a dependency is not as common for many developers.
 
-** Mining Tools and Libraries: **
+**Mining Tools and Libraries:**
 
 Our Dependency Extraction Tool for Maven Libraries: [PomWalker](https://github.com/raux/PomWalker)
 
